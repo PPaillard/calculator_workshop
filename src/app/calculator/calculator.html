@@ -1,0 +1,12 @@
+<div>
+    <div>
+        Premier nombre : {{ randomOne }} - <button (click)="generateOne()">Aléatoire</button>
+    </div>
+    <div>
+        Deuxième nombre : {{ randomTwo }} - <button (click)="generateTwo()">Aléatoire</button>
+    </div>
+    <div>Opération : <button (click)="sum()">+</button></div>
+    @if(result){
+        <div>Résultat : {{ result }}</div>
+    }
+</div>
