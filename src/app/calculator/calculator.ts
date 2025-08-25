@@ -26,4 +26,16 @@ export class Calculator {
   sum(): void {
     this.result = this.randomOne + this.randomTwo;
   }
+
+  substract(): void {
+    this.result = this.randomOne - this.randomTwo;
+  }
+
+  multiply(): void {
+    this.result = this.randomOne * this.randomTwo;
+  }
+
+  division(): void {
+    this.result = Math.floor(this.randomOne / this.randomTwo);
+  }
 }
